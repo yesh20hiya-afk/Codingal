@@ -1,0 +1,10 @@
+x = (input("Do you want to shut down computer?"))
+
+if x == "yes":
+    print("shutting down ...")
+    
+elif x == "no": 
+    print("abort shutting down")
+    
+else:
+    print("sorry, try again")
